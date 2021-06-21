@@ -5,16 +5,16 @@ import sys
 cmd = sys.executable
 
 # The filename of the image you want to stipple goes here.
-ORIGINAL_IMAGE = "images/smileyface-inverted.png"
+ORIGINAL_IMAGE = "images/tspex04_bw.png"
 
 # Enables saving of images.
 SAVE_IMAGE = True
 
 # Total number of points to stipple your image with
-NUMBER_OF_POINTS = 1024
+NUMBER_OF_POINTS = 12500
 
 # Number of iterations for the algorithm to evenly spread out all the points. Increase if it looks like all the points haven't 'settled' after the last few iterations.
-NUMBER_OF_ITERATIONS = 25
+NUMBER_OF_ITERATIONS = 30
 
 # Sets of the point size of dots to appear on the final iteration. Currently untested.
 POINT_SIZE = "1.0 1.0"
